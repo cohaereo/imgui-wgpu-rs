@@ -38,3 +38,6 @@ winit = "0.30"
 
 [package.metadata.docs.rs]
 all-features = true
+
+[patch.crates-io]
+wgpu = { git = "https://github.com/cohaereo/wgpu.git", branch = "skip-fence-wait-on-non-windows" }
